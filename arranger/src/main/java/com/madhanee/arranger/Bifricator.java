@@ -3,7 +3,7 @@ package com.madhanee.arranger;
 import java.io.File;
 
 public class Bifricator {
-	private File infol; 
+	 File infol; 
 	public void bifri(String path) {
 		File infol=new File(path);
 		this.infol=infol;

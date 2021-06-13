@@ -4,5 +4,8 @@
    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation = "http://www.springframework.org/schema/beans
    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+   
    <bean id="bifurc" class="com.madhanee.arranger.Bifricator"></bean>
+   <bean id="folop" class="com.madhanee.arranger.FolderOperations" >
+   <constructor-arg name="bifri" ref="bifurc"></constructor-arg> </bean>
 </beans>
