@@ -20,9 +20,7 @@ public class App
         Scanner sc=new Scanner(System.in);
         String path=sc.nextLine();
         org.bifri(path);
-        System.out.println(Arrays.toString(org.isfile()));
-        System.out.println(Arrays.toString(org.isfolder()));
         FolderOperations folop=(FolderOperations)con.getBean("folop");
-        folop.checkfile();
+        folop.checkfile(path);
     }
 }

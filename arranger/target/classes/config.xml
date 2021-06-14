@@ -7,5 +7,6 @@
    
    <bean id="bifurc" class="com.madhanee.arranger.Bifricator"></bean>
    <bean id="folop" class="com.madhanee.arranger.FolderOperations" >
+   <property name="constant" value="~!"></property>
    <constructor-arg name="bifri" ref="bifurc"></constructor-arg> </bean>
 </beans>
