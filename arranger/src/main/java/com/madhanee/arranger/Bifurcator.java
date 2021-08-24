@@ -1,8 +1,8 @@
 package com.madhanee.arranger;
 
 import java.io.File;
-
-public class Bifricator {
+//To bifurcate file and folders in the given path
+public class Bifurcator {
 	 File infol; 
 	public void bifri(String path) {
 		File infol=new File(path);
